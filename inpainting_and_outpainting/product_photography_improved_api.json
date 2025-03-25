@@ -133,7 +133,7 @@
     },
     "20": {
         "inputs": {
-            "seed": 654689829781574,
+            "seed": 1065838931979666,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -213,7 +213,7 @@
             "interpolation": "nearest",
             "method": "keep proportion",
             "condition": "always",
-            "multiple_of": 0,
+            "multiple_of": 8,
             "image": [
                 "65",
                 0
@@ -359,7 +359,7 @@
     },
     "35": {
         "inputs": {
-            "seed": 786506531041769,
+            "seed": 457758756266119,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
@@ -635,7 +635,7 @@
     "55": {
         "inputs": {
             "mode": "soft_light",
-            "blur_sigma": 5,
+            "blur_sigma": 4,
             "blend_factor": 1,
             "target": [
                 "50",
@@ -777,7 +777,7 @@
     },
     "65": {
         "inputs": {
-            "image": "example.png",
+            "image": "Shoeee.jpeg",
             "upload": "image",
             "label": "Input Product Image"
         },
@@ -788,7 +788,7 @@
     },
     "66": {
         "inputs": {
-            "default_value": "",
+            "default_value": "shoe in a river, shot with an arri alexa 35mm cinematic shot",
             "label": "Background Prompt"
         },
         "class_type": "FSLoadText",
